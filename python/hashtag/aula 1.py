@@ -12,7 +12,7 @@ pyautogui.press("enter")
 
 pyautogui.press("f11")
 pyautogui.click(x=134, y=861)
-pyautogui.hotkey("ctrl, a")
+pyautogui.hotkey("ctrl", "a")
 pyautogui.press("delete")
 pyautogui.write("commit")
 
