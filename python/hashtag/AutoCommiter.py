@@ -12,7 +12,7 @@ layout = [
 ]
 
 
-window = sg.Window("titulo", layout)
+window = sg.Window("GitHub Auto Commiter", layout)
 
 event, values = window.read()
 Commit = values["Commit"]
